@@ -17,19 +17,7 @@ a {
 }
 
 button {cursor: pointer;}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+ 
 
 /*======header======*/
 
@@ -66,7 +54,15 @@ button {cursor: pointer;}
     line-height: 1.50;
     letter-spacing: 0.02em;}  
 
-.link-contacts {
+.header-menu-link:hover,
+.header-menu-link:focus{
+    color: #404BBF;
+}
+
+.header-adress{
+    font-style: normal
+}
+.header-adress-link{
     color: #434455;
     font-size: 16px;
     font-weight: 400;
@@ -74,6 +70,10 @@ button {cursor: pointer;}
     letter-spacing: 0.02em;
     font-style: normal;
 } 
+.header-adress-link:hover,
+.header-adress-link:focus{
+    color: #404BBF;
+}
 
     /*======order sevice======*/ 
 .titel{
@@ -94,6 +94,12 @@ button {cursor: pointer;}
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
+}
+
+
+.titel-btn:hover,
+.titel-btn:focus{
+   background-color: #404bbf;
 }
 
 /*======skills======*/
