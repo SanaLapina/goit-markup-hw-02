@@ -126,9 +126,8 @@ button {cursor: pointer;}
     /*======order sevice======*/ 
 .titel{
     padding-bottom: 120px;
-    background-color: #2E2F42;
-    padding: 188px 0;
-}
+    padding-top:120px;
+    background-color: #2E2F42;}
     
 
 .title-main{
@@ -200,6 +199,8 @@ button {cursor: pointer;}
 
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-titel {
@@ -208,10 +209,7 @@ button {cursor: pointer;}
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
-    padding-top: 120px;
-    padding-bottom: 72px;
-}
+    text-transform: capitalize;}
 
 .team-list {
     display: flex;
@@ -220,10 +218,7 @@ button {cursor: pointer;}
 }
 
 .team-item {
-    background-color: #FFFFFF;
-    margin: 0 auto;
-    margin-bottom: 120px;
-}
+    background-color: #FFFFFF;}
 
 .team-picture{
     margin-bottom: 32px;
@@ -251,7 +246,10 @@ button {cursor: pointer;}
 
 /*======portfolio=======*/
 
-.porfilio {}
+.porfilio{
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
 
 .porfilio-titel {
     color:#2E2F42;
@@ -260,10 +258,7 @@ button {cursor: pointer;}
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
-    margin-top: 120px;
-    margin-bottom: 72px;
-}
+    text-transform: capitalize;}
 
 .portfolio-list{
     display: flex;
@@ -273,9 +268,7 @@ button {cursor: pointer;}
 }
 
 
-.portfolio-item {
-    margin-bottom: 120px;
-}
+.portfolio-item {}
 
 .portfolio-picture {
     margin-bottom: 32px;
